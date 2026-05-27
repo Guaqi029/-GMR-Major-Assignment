@@ -1,0 +1,8 @@
+metric,chinese_name,physical_meaning
+joint_velocity_peak,关节速度峰值,机器人所有关节角速度的最大绝对值，反映是否出现瞬时过快动作或尖峰。
+joint_jerk_proxy,关节抖动代理,关节速度变化率的平均绝对值，近似反映动作是否平滑、是否存在高频抖动。
+contact_phase_wrist_jitter,接触阶段手腕抖动,仅在接触阶段统计机器人手腕轨迹的高频变化强度，反映操作时手部是否稳定。
+foot_sliding_proxy,足端滑移代理,脚接近地面时的水平滑动速度均值，反映站立或支撑时脚底是否打滑。
+joint_limit_proximity_ratio,关节逼近极限比例,关节位置接近机械上下限的时间占比，反映姿态是否逼近不可执行或不自然区域。
+human_robot_wrist_consistency,人机手腕运动一致性,接触阶段人手腕与机器人手腕运动方向的平均相似度，反映操作语义是否被保留。
+contact_ratio,接触阶段占比,整段动作中被判定为接触阶段的帧比例，用于描述交互动作的时长占比。
