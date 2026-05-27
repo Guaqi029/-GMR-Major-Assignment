@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+GMR/general_motion_retargeting.egg-info/
+
+# Virtual environments
+.env
+.env.*
+env/
+.venv/
+venv/
+
+# Editor / OS junk
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+MUJOCO_LOG.TXT
+
+# Large local models
+GMR/assets/body_models/
